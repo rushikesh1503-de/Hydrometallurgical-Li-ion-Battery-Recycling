@@ -1,7 +1,4 @@
 # Hydrometallurgical NMC622 Li ion Battery Recycling
-## Process Simulation, Life Cycle Assessment and Python Based Sensitivity Analysis
-### 01 - Goal, Scope and Literature Review
-
 ---
 
 ## 1. Introduction and Industrial Relevance
@@ -714,35 +711,3 @@ Detailed numerical process assumptions will be selected from the literature duri
     https://www.sciencedirect.com/science/article/pii/S2666821123001394
 
 ---
-
-## 22. Scope Definition for the Next Methodology Stage
-
-The following decisions are fixed for the process model:
-
-| Item | Defined base case |
-|---|---|
-| Battery chemistry | NMC622 |
-| Chemical formula | LiNi0.6Mn0.2Co0.2O2 |
-| Process feed | NMC622 rich spent black mass |
-| Functional unit | 1 kg NMC622 precursor, Ni0.6Mn0.2Co0.2(OH)2 |
-| Reference flow | Black mass required to produce the functional unit |
-| Foreground boundary | Gate to gate recycling process |
-| Background inventory | Electricity, chemicals, water, transport and virgin material production as defined |
-| Leaching system | H2SO4 + H2O2 |
-| Main recovered transition metals | Ni, Mn and Co |
-| Main transition metal product | NMC622 precursor hydroxide |
-| Lithium product | Lithium carbonate where supported by the selected route |
-| Graphite | Excluded from base case |
-| Electrolyte | Excluded from base case |
-| Final cathode synthesis | Excluded from base case |
-| Wastewater treatment | Included at screening level |
-| Process simulation | DWSIM |
-| LCA | OpenLCA |
-| Sensitivity analysis | Python |
-| Primary environmental indicator | Climate change |
-| Main resource indicator | Mineral resource scarcity |
-| Comparison | Recycled precursor versus equivalent virgin precursor |
-| Co product treatment | System expansion or substitution |
-| Main scenarios | Base case, high recovery, low carbon electricity |
-
-This scope provides the fixed foundation for `02_Process_Model_and_LCI_Methodology.md`, where the detailed feed composition, stoichiometry, literature values, process conditions, unit operations, stream table, mass balance, energy balance and life cycle inventory will be defined.
