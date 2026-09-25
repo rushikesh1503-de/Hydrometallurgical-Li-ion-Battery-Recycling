@@ -1,0 +1,163 @@
+
+   H2SO4_Feed        H2O2_Feed
+        │                 │
+        └──────┬────────┘
+                 │                   BM
+                │                    │
+                └───────┬───────┘
+                          ▼
+              CUSTOM_Leaching_Mixer
+                          │
+                          ▼
+                     Leach_Feed
+                          │
+                          ▼
+                        RCONV
+                    ┌─────┴─────┐
+                    ▼              ▼
+              Leach_Slurry  Leach_OffGas
+                    │
+                    ▼
+           CUSTOM_Solid_Separator
+			|
+                ┌─────┴─────┐
+                ▼              ▼
+        Leach_Liquids   Leach_Solids
+                │
+                │              LiOH_Feed
+                │                  │
+                └────────┬─────────┘
+                         ▼
+              Precipitation_Mixer
+                         │
+                         ▼
+              Precipitation_Feed
+                         │
+                         ▼
+              Heater_Precipitation
+                         │
+                         ▼
+          Heated_Precipitation_Feed
+                         │
+                         ▼
+                      RCONV-2
+                 ┌───────┴───────┐
+                 ▼               ▼
+          Precip_Slurry    Precip_OffGas
+                 │
+                 ▼
+     CUSTOM_Precipitate_Separator
+           ┌───────┴────────┐
+           ▼                ▼
+    Precip_Filtrate   Wet_NMC_Hydroxide_Cake
+           │                 │
+           │           DI_Wash_Water_1
+           │                 │
+           │                 ▼
+           │      CUSTOM_NMC_Hydroxide_Wash
+           │            ┌─────┴──────┐
+           │            ▼            ▼
+           │      Wash_Liquid   Washed_NMC_Hydroxide_Cake
+           │                          │
+           │                          ▼
+           │                       Heater
+           │                          │
+           │                          ▼
+           │                  Heated_Wet_Cake
+           │                          │
+           │                          ▼
+           │           CUSTOM_NMC_Hydroxide_Dryer
+           │                  ┌───────┴────────┐
+           │                  ▼                ▼
+           │        Dry_NMC622_Hydroxide   Dryer_Offgas
+           │
+           │              CO2_Feed
+           │                  │
+           └────────┬──--──┘
+                     ▼
+            Carbonation_Mixer
+                     │
+                     ▼
+            Carbonation_Feed
+                     │
+                     ▼
+                  RCONV_3
+              ┌───────┴────────┐
+              ▼                ▼
+       Li2CO3_Slurry     Li2CO3_OffGas
+              │
+              ▼
+    CUSTOM_Li2CO3_Separator
+          ┌────────┴────────┐
+          ▼                 ▼
+Li2CO3_Mother_Liquor   Li2CO3_Wet_Cake
+                              │
+                     Heated_DI_Wash_Water
+                              │
+                              ▼
+                  CUSTOM_Li2CO3_Washer
+                       ┌────────┴────────┐
+                       ▼                 ▼
+              Li2CO3_Wash_Liquor   Washed_Li2CO3_Cake
+                                         │
+                                         ▼
+                              Heater_Li2CO3_Dryer
+                                         │
+                                         ▼
+                              Heated_Li2CO3_Cake
+                                         │
+                                         ▼
+                              CUSTOM_Li2CO3_Dryer
+                                   ┌───────┴────────┐
+                                   ▼                ▼
+                             Dry_Li2CO3     Li2CO3_Dryer_Offgas
+
+
+
+--------------------------------------------------------------------
+
+
+                         +--> NMC622 regeneration
+                         |
+Dry_Li2CO3 --------------+
+                         |
+                         +--> Surplus_Li2CO3
+                                  |
+                                  v
+                            HCl_Feed
+                         35 wt% HCl
+                                  |
+                                  v
+                         Li2CO3 + HCl Reactor
+                                  |
+                         +--------+--------+
+                         |                 |
+                        CO2          LiCl solution
+                                           |
+                                           v
+                                   Impurity removal
+                                           |
+                                           v
+                                    LiCl solution
+                                           |
+                                           v
+                                      Concentrator
+                                           |
+                                           v
+                                    LiCl crystallizer
+                                           |
+                                           v
+                                    LiCl dehydration
+                                           |
+                                           v
+                                    Anhydrous LiCl
+                                           +
+                                          KCl
+                                           |
+                                           v
+                                  Molten electrolysis
+                                     /          \
+                                    /            \
+                              Li metal           Cl2
+
+
