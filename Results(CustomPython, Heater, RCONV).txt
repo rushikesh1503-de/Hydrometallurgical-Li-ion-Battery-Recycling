@@ -1,0 +1,1028 @@
+Reactor: RCONV
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation Parameters
+
+    Calculation mode: OutletTemperature
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet Temperature: 323.15 K
+    Heat added/removed: -1.0197 kW
+
+Reaction Conversions
+
+    NMC622_Acid_Leaching: 100%
+
+Compound Conversions
+
+    Water: -1.96899%
+    Sulfuric acid: 38.6981%
+    Hydrogen peroxide: 30.251%
+    NMC622: 100%
+    Graphite: -0.000181232%
+    BM_Inert_Lumped: -0.000181232%
+    Lithium Sulfate: -∞%
+    Nickel(II) Sulfate: -∞%
+    Manganese(II) Sulfate: -∞%
+    Cobalt Sulfate: -∞%
+    Oxygen: -∞%
+    Sodium Carbonate: NaN%
+    Sodium Sulfate: NaN%
+    Lithium (ion): NaN%
+    Hydroxide: NaN%
+    NMC622_Hydroxide: NaN%
+    Carbon dioxide: NaN%
+    Lithium Carbonate: NaN%
+
+Property	Value	Units
+Operating Pressure (Dynamics)	0	Pa
+Liquid Level	0	m
+Volume	1	m3
+Height	2	m
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	0	
+Reset Contents	0	
+----------------------------------------
+
+Reactor: RCONV-2
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation Parameters
+
+    Calculation mode: OutletTemperature
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet Temperature: 333.15 K
+    Heat added/removed: 0.576509 kW
+
+Reaction Conversions
+
+    NMC622_Hydroxide_Precipitation: 100%
+
+Compound Conversions
+
+    Water: -0.000121957%
+    Sulfuric acid: -0.000121957%
+    Hydrogen peroxide: -0.000121957%
+    NMC622: NaN%
+    Graphite: NaN%
+    BM_Inert_Lumped: NaN%
+    Lithium Sulfate: -200%
+    Nickel(II) Sulfate: 100%
+    Manganese(II) Sulfate: 100%
+    Cobalt Sulfate: 100%
+    Oxygen: -0.000121957%
+    Sodium Carbonate: NaN%
+    Sodium Sulfate: NaN%
+    Lithium (ion): 29.558%
+    Hydroxide: 29.558%
+    NMC622_Hydroxide: -∞%
+    Carbon dioxide: NaN%
+    Lithium Carbonate: NaN%
+
+Property	Value	Units
+Operating Pressure (Dynamics)	0	Pa
+Liquid Level	0	m
+Volume	1	m3
+Height	2	m
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	0	
+Reset Contents	0	
+
+------------------------
+
+Reactor: RCONV_3
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation Parameters
+
+    Calculation mode: OutletTemperature
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet Temperature: 323.15 K
+    Heat added/removed: 4.25691 kW
+
+Reaction Conversions
+
+    LiOH_Carbonation: 90%
+
+Compound Conversions
+
+    Water: -1.2035%
+    Sulfuric acid: 7.57192E-05%
+    Hydrogen peroxide: 7.57192E-05%
+    NMC622: NaN%
+    Graphite: NaN%
+    BM_Inert_Lumped: NaN%
+    Lithium Sulfate: 7.57192E-05%
+    Nickel(II) Sulfate: 7.57192E-05%
+    Manganese(II) Sulfate: NaN%
+    Cobalt Sulfate: 7.57192E-05%
+    Oxygen: 7.57192E-05%
+    Sodium Carbonate: NaN%
+    Sodium Sulfate: NaN%
+    Lithium (ion): 90%
+    Hydroxide: 90%
+    NMC622_Hydroxide: NaN%
+    Carbon dioxide: 61.3872%
+    Lithium Carbonate: -∞%
+Property	Value	Units
+Operating Pressure (Dynamics)	0	Pa
+Liquid Level	0	m
+Volume	1	m3
+Height	2	m
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	0	
+Reset Contents	0	
+
+
+---------------------------
+Reactor: RCON-4
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation Parameters
+
+    Calculation mode: OutletTemperature
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet Temperature: 1073.15 K
+    Heat added/removed: -1.04814E+09 kW
+
+Reaction Conversions
+
+    NMC622_Calcination: 94.3888%
+
+Compound Conversions
+
+    Water: -45979.7%
+    Sulfuric acid: -0.000146119%
+    Hydrogen peroxide: -0.000146119%
+    NMC622: -∞%
+    Graphite: NaN%
+    BM_Inert_Lumped: NaN%
+    Lithium Sulfate: -0.000146119%
+    Nickel(II) Sulfate: -0.000146119%
+    Manganese(II) Sulfate: NaN%
+    Cobalt Sulfate: -0.000146119%
+    Oxygen: 49.953%
+    Sodium Carbonate: NaN%
+    Sodium Sulfate: NaN%
+    Lithium (ion): -0.000146119%
+    Hydroxide: -0.000146119%
+    NMC622_Hydroxide: 100%
+    Carbon dioxide: -∞%
+    Lithium Carbonate: 94.3888%
+Property	Value	Units
+Operating Pressure (Dynamics)	0	Pa
+Liquid Level	0	m
+Volume	1	m3
+Height	2	m
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	0	
+Reset Contents	0	
+
+---------------------
+
+Heater: Calcination_Feed_Heater
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Inlet conditions
+
+    Temperature: 371.242 K
+    Pressure: 101325 Pa
+    Mass flow: 0.000261988 kg/s
+    Volumetric flow: 0 m3/s
+    Vapor fraction: 0
+    Compounds: Water, Sulfuric acid, Hydrogen peroxide, NMC622, Graphite, BM_Inert_Lumped, Lithium Sulfate, Nickel(II) Sulfate, Manganese(II) Sulfate, Cobalt Sulfate, Oxygen, Sodium Carbonate, Sodium Sulfate, Lithium (ion), Hydroxide, NMC622_Hydroxide, Carbon dioxide, Lithium Carbonate
+    Molar composition: {0.00106992; 3.00939E-05; 1.45997E-05; 0; 0; 0; 1.89975E-05; 1.54317E-21; 0; 1.26887E-18; 0.246204; 0; 0; 6.03656E-05; 6.03656E-05; 0.491946; 0; 0.260595}
+
+Calculation parameters
+
+    Calculation mode: OutletTemperature
+    Outlet temperature: 1073.15 K
+    Efficiency: 100
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet vapor mole fraction: 0.247319
+    Heat added: -1.1838E+07 kW
+
+Property	Value	Units
+Flow Conductance	1	[kg/s]/[Pa^0.5]
+Volume	1	m3
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	-1	
+Reset Content	0	
+Ambient Temperature	298.15	K
+Ambient UA Product	0	W/[m2.K]
+Wall Thermal Mass	0	
+Wall Temperature	298.15	K
+Temperature Difference	701.908	K.
+
+--------------------
+Heater: Heater
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Inlet conditions
+
+    Temperature: 320.443 K
+    Pressure: 101325 Pa
+    Mass flow: 0.000163907 kg/s
+    Volumetric flow: 1.48791E-10 m3/s
+    Vapor fraction: 0
+    Compounds: Water, Sulfuric acid, Hydrogen peroxide, NMC622, Graphite, BM_Inert_Lumped, Lithium Sulfate, Nickel(II) Sulfate, Manganese(II) Sulfate, Cobalt Sulfate, Oxygen, Sodium Carbonate, Sodium Sulfate, Lithium (ion), Hydroxide, NMC622_Hydroxide, Carbon dioxide, Lithium Carbonate
+    Molar composition: {0.00456522; 6.08711E-05; 2.95308E-05; 0; 0; 0; 3.84264E-05; 3.12138E-21; 0; 2.56655E-18; 4.11045E-08; 0; 0; 0.000122102; 0.000122102; 0.995062; 0; 0}
+
+Calculation parameters
+
+    Calculation mode: OutletTemperature
+    Outlet temperature: 383.15 K
+    Efficiency: 100
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet vapor mole fraction: 0
+    Heat added: 5.30333E-06 kW
+Property	Value	Units
+Flow Conductance	1	[kg/s]/[Pa^0.5]
+Volume	1	m3
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	-1	
+Reset Content	0	
+Ambient Temperature	298.15	K
+Ambient UA Product	0	W/[m2.K]
+Wall Thermal Mass	0	
+Wall Temperature	298.15	K
+Temperature Difference	62.7071	K.
+
+
+--------------------
+Heater: Heater_Li2CO3_Dryer
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Inlet conditions
+
+    Temperature: 343.15 K
+    Pressure: 101325 Pa
+    Mass flow: 0.000293533 kg/s
+    Volumetric flow: 1.50165E-08 m3/s
+    Vapor fraction: 0
+    Compounds: Water, Sulfuric acid, Hydrogen peroxide, NMC622, Graphite, BM_Inert_Lumped, Lithium Sulfate, Nickel(II) Sulfate, Manganese(II) Sulfate, Cobalt Sulfate, Oxygen, Sodium Carbonate, Sodium Sulfate, Lithium (ion), Hydroxide, NMC622_Hydroxide, Carbon dioxide, Lithium Carbonate
+    Molar composition: {0.177545; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0.822455}
+
+Calculation parameters
+
+    Calculation mode: OutletTemperature
+    Outlet temperature: 373.15 K
+    Efficiency: 100
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet vapor mole fraction: 0
+    Heat added: 6.75712E-05 kW
+
+Property	Value	Units
+Flow Conductance	1	[kg/s]/[Pa^0.5]
+Volume	1	m3
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	-1	
+Reset Content	0	
+Ambient Temperature	298.15	K
+Ambient UA Product	0	W/[m2.K]
+Wall Thermal Mass	0	
+Wall Temperature	298.15	K
+Temperature Difference	30	K.
+
+----------------------
+Heater: Heater_Li2CO3_Wash_Water
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Inlet conditions
+
+    Temperature: 298.15 K
+    Pressure: 101325 Pa
+    Mass flow: 0.000296509 kg/s
+    Volumetric flow: 2.97607E-07 m3/s
+    Vapor fraction: 0
+    Compounds: Water, Sulfuric acid, Hydrogen peroxide, NMC622, Graphite, BM_Inert_Lumped, Lithium Sulfate, Nickel(II) Sulfate, Manganese(II) Sulfate, Cobalt Sulfate, Oxygen, Sodium Carbonate, Sodium Sulfate, Lithium (ion), Hydroxide, NMC622_Hydroxide, Carbon dioxide, Lithium Carbonate
+    Molar composition: {1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0}
+
+Calculation parameters
+
+    Calculation mode: OutletTemperature
+    Outlet temperature: 363.15 K
+    Efficiency: 100
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet vapor mole fraction: 0
+    Heat added: 0.000822859 kW
+
+Property	Value	Units
+Flow Conductance	1	[kg/s]/[Pa^0.5]
+Volume	1	m3
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	-1	
+Reset Content	0	
+Ambient Temperature	298.15	K
+Ambient UA Product	0	W/[m2.K]
+Wall Thermal Mass	0	
+Wall Temperature	298.15	K
+Temperature Difference	65	K.
+
+--------------------------------
+
+Heater: Heater_Precipitation
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Inlet conditions
+
+    Temperature: 308.486 K
+    Pressure: 101325 Pa
+    Mass flow: 0.0068584 kg/s
+    Volumetric flow: 5.75281E-06 m3/s
+    Vapor fraction: 0
+    Compounds: Water, Sulfuric acid, Hydrogen peroxide, NMC622, Graphite, BM_Inert_Lumped, Lithium Sulfate, Nickel(II) Sulfate, Manganese(II) Sulfate, Cobalt Sulfate, Oxygen, Sodium Carbonate, Sodium Sulfate, Lithium (ion), Hydroxide, NMC622_Hydroxide, Carbon dioxide, Lithium Carbonate
+    Molar composition: {0.90566; 0.0120758; 0.00585841; 0; 0; 0; 0.00254104; 0.00304925; 0.00101642; 0.00101642; 8.15443E-06; 0; 0; 0.0343871; 0.0343871; 0; 0; 0}
+
+Calculation parameters
+
+    Calculation mode: OutletTemperature
+    Outlet temperature: 323.15 K
+    Efficiency: 100
+    Pressure drop: 0 Pa
+
+Results
+
+    Outlet vapor mole fraction: 0
+    Heat added: 0.0352653 kW
+
+Property	Value	Units
+Flow Conductance	1	[kg/s]/[Pa^0.5]
+Volume	1	m3
+Minimum Pressure	101325	Pa
+Initialize using Inlet Stream	-1	
+Reset Content	0	
+Ambient Temperature	298.15	K
+Ambient UA Product	0	W/[m2.K]
+Wall Thermal Mass	0	
+Wall Temperature	298.15	K
+Temperature Difference	14.6637	K.
+
+---------------------------------
+Python Script Block: CUSTOM_Leaching_Mixer
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    total_mass_flow: 0.00431126
+    total_enthalpy_flow: -8.70757
+    weighted_temperature: 1.2854
+    outlet_pressure: 101325
+    mass_flow: 0.00016958
+    temperature: 298.15
+    pressure: 101325
+    enthalpy: -1902.93
+    mass_fraction: 0
+    outlet_temperature: 298.15
+    outlet_specific_enthalpy: -2019.73
+    mass_divided_by_mw: 0.0461041
+    mw: 73.891
+
+Property	Value	Units
+total_mass_flow	0.00431126	
+total_enthalpy_flow	-8.70757	
+weighted_temperature	1.2854	
+outlet_pressure	101325	
+mass_flow	0.00016958	
+temperature	298.15	
+pressure	101325	
+enthalpy	-1902.93	
+mass_fraction	0	
+outlet_temperature	298.15	
+outlet_specific_enthalpy	-2019.73	
+mass_divided_by_mw	0.0461041	
+mw	73.891	
+
+--------------------------------
+
+Python Script Block: CUSTOM_Li2CO3_Dosing 
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    EXCESS_SPLIT: 0.7502
+    NMC622_SPLIT: 0.2498
+    split_total: 1
+    inlet_mass_flow: 0.000279136
+    temperature: 373.15
+    pressure: 101325
+    mass_fraction: 0.999
+    li2co3_in: 0.000278857
+    excess_mass_flow: 0.000209408
+    nmc_mass_flow: 6.97281E-05
+    inlet_component_flow: 0
+    li2co3_excess: 0.000209198
+    li2co3_to_nmc: 6.96584E-05
+    mass_balance_error: 0
+    li2co3_balance_error: 0
+    component_balance_error: 1.32349E-23
+    inlet_component: 0
+    excess_component: 0
+    nmc_component: 0
+
+Property	Value	Units
+EXCESS_SPLIT	0.7502	
+NMC622_SPLIT	0.2498	
+split_total	1	
+inlet_mass_flow	0.000279136	
+temperature	373.15	
+pressure	101325	
+mass_fraction	0.999	
+li2co3_in	0.000278857	
+excess_mass_flow	0.000209408	
+nmc_mass_flow	6.97281E-05	
+inlet_component_flow	0	
+li2co3_excess	0.000209198	
+li2co3_to_nmc	6.96584E-05	
+mass_balance_error	0	
+li2co3_balance_error	0	
+component_balance_error	1.32349E-23	
+inlet_component	0	
+excess_component	0	
+nmc_component	0	
+
+------------------------------
+Python Script Block: CUSTOM_Li2CO3_Dryer
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    DRYER_TEMPERATURE: 373.15
+    TARGET_MOISTURE: 0.001
+    LI2CO3_RECOVERY: 1
+    inlet_mass_flow: 0.000293533
+    temperature: 373.15
+    pressure: 101325
+    mass_fraction: 0.95
+    water_in: 1.46767E-05
+    li2co3_in: 0.000278857
+    li2co3_product: 0.000278857
+    nonwater_mass: 0.000278857
+    other_nonwater_mass: 0
+    dry_solid_mass: 0.000278857
+    dry_mass_flow: 0.000279136
+    water_remaining: 2.79136E-07
+    water_removed: 1.43975E-05
+    offgas_mass_flow: 1.43975E-05
+    mass_balance_error: -4.74338E-20
+    water_balance_error: 0
+    final_moisture: 0.001
+
+Property	Value	Units
+DRYER_TEMPERATURE	373.15	
+TARGET_MOISTURE	0.001	
+LI2CO3_RECOVERY	1	
+inlet_mass_flow	0.000293533	
+temperature	373.15	
+pressure	101325	
+mass_fraction	0.95	
+water_in	1.46767E-05	
+li2co3_in	0.000278857	
+li2co3_product	0.000278857	
+nonwater_mass	0.000278857	
+other_nonwater_mass	0	
+dry_solid_mass	0.000278857	
+dry_mass_flow	0.000279136	
+water_remaining	2.79136E-07	
+water_removed	1.43975E-05	
+offgas_mass_flow	1.43975E-05	
+mass_balance_error	-4.74338E-20	
+water_balance_error	0	
+final_moisture	0.001	
+
+------------------------------
+Python Script Block: CUSTOM_Li2CO3_Separator
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    FILTER_CAKE_MOISTURE: 0.05
+    LI2CO3_CAPTURE_EFFICIENCY: 1
+    inlet_mass_flow: 0.00685285
+    temperature: 323.15
+    pressure: 101325
+    mass_fraction: 0.0411045
+    li2co3_in: 0.000281683
+    li2co3_cake_mass: 0.000281683
+    li2co3_mother_liquor_mass: 0
+    feed_liquid_mass: 0.00657116
+    wet_cake_mass: 0.000296509
+    retained_liquid_mass: 1.48254E-05
+    mother_liquor_mass: 0.00655634
+    retained_fraction: 0.00225613
+    component_mass: 0
+    retained_component_mass: 0
+    mother_liquor_component_mass: 0
+    mass_balance_error: 0
+    li2co3_balance_error: 0
+
+Property	Value	Units
+FILTER_CAKE_MOISTURE	0.05	
+LI2CO3_CAPTURE_EFFICIENCY	1	
+inlet_mass_flow	0.00685285	
+temperature	323.15	
+pressure	101325	
+mass_fraction	0.0411045	
+li2co3_in	0.000281683	
+li2co3_cake_mass	0.000281683	
+li2co3_mother_liquor_mass	0	
+feed_liquid_mass	0.00657116	
+wet_cake_mass	0.000296509	
+retained_liquid_mass	1.48254E-05	
+mother_liquor_mass	0.00655634	
+retained_fraction	0.00225613	
+component_mass	0	
+retained_component_mass	0	
+mother_liquor_component_mass	0	
+mass_balance_error	0	
+li2co3_balance_error	0	
+
+---------------------------------------
+
+Python Script Block: CUSTOM_Li2CO3_Washer
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    WASH_WATER_RATIO: 1
+    EXPECTED_WASH_WATER_TEMPERATURE: 363.15
+    FILTER_CAKE_MOISTURE: 0.05
+    MOTHER_LIQUOR_REMOVAL_EFFICIENCY: 1
+    wet_cake_mass_flow: 0.000296509
+    wash_water_mass_flow: 0.000296509
+    wet_cake_temperature: 323.15
+    wash_water_temperature: 363.15
+    wet_cake_pressure: 101325
+    wash_water_pressure: 101325
+    actual_wash_ratio: 1
+    wash_temperature: 343.15
+    i: 17
+    mf: 0
+    li2co3_in: 0.000281683
+    retained_mother_liquor: 1.48254E-05
+    li2co3_solubility: 9.2
+    wash_water_volumetric_flow: 3.07228E-07
+    wash_water_L_per_s: 0.000307228
+    li2co3_loss_mass_flow: 2.8265E-06
+    li2co3_washed: 0.000278857
+    washed_cake_mass_flow: 0.000293533
+    washed_cake_retained_liquid: 1.46767E-05
+    original_component: 1.03668E-08
+    removed_component: 1.03668E-08
+    remaining_component: 0
+    total_fresh_wash_water: 0.000296509
+    retained_wash_fraction: 0.0494982
+    retained_from_wash: 0
+    calculated_washed_cake_mass_flow: 0.000293533
+    calculated_wash_liquor_mass_flow: 0.000299485
+    cake_mf: 0.95
+    liquor_mf: 0.00943787
+    feed_total: 0.000593018
+    out_total: 0.000593018
+    mass_balance_error: 0
+    li2co3_balance_error: 1.94818E-20
+    wet_cake_temperature_C: 50
+    wash_water_temperature_C: 90
+    wash_temperature_C: 70
+
+Property	Value	Units
+WASH_WATER_RATIO	1	
+EXPECTED_WASH_WATER_TEMPERATURE	363.15	
+FILTER_CAKE_MOISTURE	0.05	
+MOTHER_LIQUOR_REMOVAL_EFFICIENCY	1	
+wet_cake_mass_flow	0.000296509	
+wash_water_mass_flow	0.000296509	
+wet_cake_temperature	323.15	
+wash_water_temperature	363.15	
+wet_cake_pressure	101325	
+wash_water_pressure	101325	
+actual_wash_ratio	1	
+wash_temperature	343.15	
+i	17	
+mf	0	
+li2co3_in	0.000281683	
+retained_mother_liquor	1.48254E-05	
+li2co3_solubility	9.2	
+wash_water_volumetric_flow	3.07228E-07	
+wash_water_L_per_s	0.000307228	
+li2co3_loss_mass_flow	2.8265E-06	
+li2co3_washed	0.000278857	
+washed_cake_mass_flow	0.000293533	
+washed_cake_retained_liquid	1.46767E-05	
+original_component	1.03668E-08	
+removed_component	1.03668E-08	
+remaining_component	0	
+total_fresh_wash_water	0.000296509	
+retained_wash_fraction	0.0494982	
+retained_from_wash	0	
+calculated_washed_cake_mass_flow	0.000293533	
+calculated_wash_liquor_mass_flow	0.000299485	
+cake_mf	0.95	
+liquor_mf	0.00943787	
+feed_total	0.000593018	
+out_total	0.000593018	
+mass_balance_error	0	
+li2co3_balance_error	1.94818E-20	
+wet_cake_temperature_C	50	
+wash_water_temperature_C	90	
+wash_temperature_C	70	
+
+-------------------------------
+
+Python Script Block: CUSTOM_NMC_Hydroxide_Dryer
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    DRYING_EFFICIENCY: 1
+    inlet_mass_flow: 0.000163907
+    temperature: 383.15
+    pressure: 101325
+    mass_fraction: 0
+    water_in: 1.47091E-07
+    water_removed: 1.47091E-07
+    water_remaining: 0
+    dry_mass_flow: 0.00016376
+    offgas_mass_flow: 1.47091E-07
+    mass_balance_error: 1.35261E-20
+
+Property	Value	Units
+DRYING_EFFICIENCY	1	
+inlet_mass_flow	0.000163907	
+temperature	383.15	
+pressure	101325	
+mass_fraction	0	
+water_in	1.47091E-07	
+water_removed	1.47091E-07	
+water_remaining	0	
+dry_mass_flow	0.00016376	
+offgas_mass_flow	1.47091E-07	
+mass_balance_error	1.35261E-20	
+
+------------------------
+
+Python Script Block: CUSTOM_NMC_Hydroxide_Wash
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    WASH_RATIO: 0.6
+    WASH_EFFICIENCY: 0.98
+    DEFAULT_TEMPERATURE: 298.15
+    DEFAULT_PRESSURE: 101325
+    cake_mass_flow: 0.000172352
+    cake_temperature: 333.15
+    cake_pressure: 101325
+    wash_water_mass_flow: 9.82417E-05
+    wash_water_temperature: 298.15
+    wash_water_pressure: 101325
+    product_index: 15
+    i: 17
+    dry_product_mass: 0.000163735
+    required_wash_water: 9.82408E-05
+    wash_water_difference: 8.77971E-10
+    WASH_WATER_TOLERANCE: 1E-09
+    cake_component_mass: 0
+    remaining_fraction: 0.02
+    remaining_mass: 0
+    removed_mass: 0
+    water_component_mass: 0
+    matching_index: 17
+    j: 17
+    washed_cake_total: 0.000163907
+    wash_liquid_total: 0.000106687
+    total_input_mass: 0.000270594
+    mass_balance_error: -2.71051E-20
+    total_input_mass_for_temperature: 0.000270594
+    weighted_temperature: 320.443
+    output_pressure: 101325
+
+Property	Value	Units
+WASH_RATIO	0.6	
+WASH_EFFICIENCY	0.98	
+DEFAULT_TEMPERATURE	298.15	
+DEFAULT_PRESSURE	101325	
+cake_mass_flow	0.000172352	
+cake_temperature	333.15	
+cake_pressure	101325	
+wash_water_mass_flow	9.82417E-05	
+wash_water_temperature	298.15	
+wash_water_pressure	101325	
+product_index	15	
+i	17	
+dry_product_mass	0.000163735	
+required_wash_water	9.82408E-05	
+wash_water_difference	8.77971E-10	
+WASH_WATER_TOLERANCE	1E-09	
+cake_component_mass	0	
+remaining_fraction	0.02	
+remaining_mass	0	
+removed_mass	0	
+water_component_mass	0	
+matching_index	17	
+j	17	
+washed_cake_total	0.000163907	
+wash_liquid_total	0.000106687	
+total_input_mass	0.000270594	
+mass_balance_error	-2.71051E-20	
+total_input_mass_for_temperature	0.000270594	
+weighted_temperature	320.443	
+output_pressure	101325	
+
+
+----------------------------
+
+Python Script Block: CUSTOM_NMC622_Mixer
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    total_mass_flow: 0.000261988
+    total_enthalpy_flow: -8.52324E-06
+    weighted_temperature: 0.0972609
+    outlet_pressure: 101325
+    mass_flow: 2.84999E-05
+    temperature: 298.15
+    pressure: 101325
+    enthalpy: -0.299062
+    mass_fraction: 0.265884
+    outlet_temperature: 371.242
+    outlet_specific_enthalpy: -0.0325329
+    mass_fraction_sum: 1
+    mass_divided_by_mw: 0.0138081
+    mw: 73.891
+    total_molar_flow: 0.00361755
+    component_mass: 6.96584E-05
+    component_moles: 0.000942718
+    outlet_molecular_weight: 72.4213
+    outlet_molar_enthalpy: -0.00235608
+    n_nmc: 0.00177964
+    n_li2co3: 0.000942718
+    n_o2: 0.000890657
+    component_n: 0.000942718
+    li_m_ratio: 1.05945
+    o2_nmc_ratio: 0.50047
+    calculated_component_mass: 0.000261988
+    mass_balance_error: 0
+    mass_balance_relative_error: 0
+    mass_fraction_sum_final: 1
+    mass_fraction_error: 0
+    mole_fraction_sum: 1
+    mole_fraction_error: 0
+
+Property	Value	Units
+total_mass_flow	0.000261988	
+total_enthalpy_flow	-8.52324E-06	
+weighted_temperature	0.0972609	
+outlet_pressure	101325	
+mass_flow	2.84999E-05	
+temperature	298.15	
+pressure	101325	
+enthalpy	-0.299062	
+mass_fraction	0.265884	
+outlet_temperature	371.242	
+outlet_specific_enthalpy	-0.0325329	
+mass_fraction_sum	1	
+mass_divided_by_mw	0.0138081	
+mw	73.891	
+total_molar_flow	0.00361755	
+component_mass	6.96584E-05	
+component_moles	0.000942718	
+outlet_molecular_weight	72.4213	
+outlet_molar_enthalpy	-0.00235608	
+n_nmc	0.00177964	
+n_li2co3	0.000942718	
+n_o2	0.000890657	
+component_n	0.000942718	
+li_m_ratio	1.05945	
+o2_nmc_ratio	0.50047	
+calculated_component_mass	0.000261988	
+mass_balance_error	0	
+mass_balance_relative_error	0	
+mass_fraction_sum_final	1	
+mass_fraction_error	0	
+mole_fraction_sum	1	
+mole_fraction_error	0	
+
+--------------------------------
+
+Python Script Block: CUSTOM_Precipitate_Separator
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    FILTER_CAKE_MOISTURE: 0.05
+    DEFAULT_TEMPERATURE: 298.15
+    DEFAULT_PRESSURE: 101325
+    feed_mass_flow: 0.0068584
+    feed_temperature: 333.15
+    feed_pressure: 101325
+    product_index: 15
+    i: 17
+    dry_product_mass: 0.000163735
+    feed_liquid_mass: 0.00669467
+    retained_liquid_mass: 8.61761E-06
+    filtrate_liquid_mass: 0.00668605
+    retained_fraction: 0.00128724
+    component_mass: 0
+    wet_cake_component_mass: 0
+    filtrate_component_mass: 0
+    wet_cake_total: 0.000172352
+    filtrate_total: 0.00668605
+    mass_balance_error: 1.73472E-18
+
+Property	Value	Units
+FILTER_CAKE_MOISTURE	0.05	
+DEFAULT_TEMPERATURE	298.15	
+DEFAULT_PRESSURE	101325	
+feed_mass_flow	0.0068584	
+feed_temperature	333.15	
+feed_pressure	101325	
+product_index	15	
+i	17	
+dry_product_mass	0.000163735	
+feed_liquid_mass	0.00669467	
+retained_liquid_mass	8.61761E-06	
+filtrate_liquid_mass	0.00668605	
+retained_fraction	0.00128724	
+component_mass	0	
+wet_cake_component_mass	0	
+filtrate_component_mass	0	
+wet_cake_total	0.000172352	
+filtrate_total	0.00668605	
+mass_balance_error	1.73472E-18	
+
+------------------------------
+
+Python Script Block: CUSTOM_Solid_Separator
+Property Package: Ideal Solution (Aqueous Electrolytes)
+
+Calculation parameters
+
+    Python Interpreter: IronPython
+
+Input String Variables
+
+
+Input Numeric Variables
+
+
+Output Variables
+
+    SOLIDS_RECOVERY: 1
+    LIQUID_RECOVERY: 1
+    inlet_mass_flow: 0.00428084
+    temperature: 323.15
+    pressure: 101325
+    mass_fraction: 0
+    inlet_component_flow: 0
+    liquid_flow: 0
+    solid_flow: 0
+    liquid_mass_flow: 0.00417556
+    solid_mass_flow: 0.000105278
+    value: 0
+    liquid_molar_flow: 0.193182
+    solid_molar_flow: 0.00636443
+    component_flow: 0
+    liquid_molar_sum: 0.000193182
+    mw: 73.891
+    solid_molar_sum: 6.36443E-06
+    outlet_mass_flow: 0.00428084
+    mass_balance_error: -8.67362E-19
+
+Property	Value	Units
+SOLIDS_RECOVERY	1	
+LIQUID_RECOVERY	1	
+inlet_mass_flow	0.00428084	
+temperature	323.15	
+pressure	101325	
+mass_fraction	0	
+inlet_component_flow	0	
+liquid_flow	0	
+solid_flow	0	
+liquid_mass_flow	0.00417556	
+solid_mass_flow	0.000105278	
+value	0	
+liquid_molar_flow	0.193182	
+solid_molar_flow	0.00636443	
+component_flow	0	
+liquid_molar_sum	0.000193182	
+mw	73.891	
+solid_molar_sum	6.36443E-06	
+outlet_mass_flow	0.00428084	
+mass_balance_error	-8.67362E-19	
+
+---------------------------------------------
